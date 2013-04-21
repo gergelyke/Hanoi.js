@@ -1,7 +1,7 @@
 Hanoi.js
 ========
 
-Hanoi-tower recursive javascript implementation
+The Tower of Hanoi recursive javascript implementation
 
 Usage:
 

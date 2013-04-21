@@ -5,6 +5,8 @@ Hanoi-tower recursive javascript implementation
 
 Usage:
 
+ ```javascript
+
 var hanoi = new Hanoi();
 
 //How fast the change events will fire
@@ -17,3 +19,4 @@ hanoi.on('change', function (data) {
 
 //Set the number of disks on the first pile, and solve the Hanoi-Tower
 hanoi.solve(5);
+ ```

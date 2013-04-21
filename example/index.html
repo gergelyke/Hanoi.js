@@ -1,0 +1,21 @@
+<html>
+	<head>
+
+	</head>
+
+	<body>
+		<script src="../hanoi.js"></script>
+		<script type="text/javascript">
+			var hanoi = new Hanoi();
+
+			hanoi.setInterval(2000);
+
+			hanoi.on('change', function (data) {
+				console.log(data);
+			})
+
+			hanoi.solve(5);
+		</script>
+	</body>
+
+</html>
